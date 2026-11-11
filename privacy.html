@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Rclone 个人云盘连接的数据访问、使用、保存与撤销授权说明。">
+    <title>隐私政策 · Rclone 个人云盘连接</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="site-name" href="./">Rclone 个人云盘连接</a>
+      <nav aria-label="页面导航">
+        <a href="./">返回首页</a>
+      </nav>
+    </header>
+    <main class="policy">
+      <h1>隐私政策</h1>
+      <p class="updated">更新于 2026 年 11 月 11 日</p>
+      <p>本政策适用于 Chihiro521 维护的 Rclone 个人云盘连接配置，说明使用本机 rclone 访问 Google 云端硬盘时的数据处理方式。</p>
+      <section>
+        <h2>访问的数据</h2>
+        <p>在账号所有者授权后，rclone 可以访问 Google 云盘中文件和文件夹的名称、标识符、大小、修改时间及其他与文件操作有关的元数据。下载、上传、复制或同步操作也会处理相关文件内容。</p>
+        <p>OAuth 授权会生成用于连接 Google 服务的访问凭据与刷新凭据。当前 Google Drive 授权范围允许查看、创建、修改和删除云盘文件。</p>
+      </section>
+      <section>
+        <h2>数据用途与传输</h2>
+        <p>Google 用户数据用于完成账号所有者发起的文件浏览、容量查询、文件传输、备份、同步和管理操作。rclone 在本机执行操作，并与 Google 服务以及使用者指定的存储位置通信。</p>
+        <p>接收文件的位置取决于使用者执行的操作及其指定的目标路径。Google 云盘中的数据同时适用 Google 的相关服务条款与隐私政策。</p>
+      </section>
+      <section>
+        <h2>本机保存与保留</h2>
+        <p>授权信息保存在使用者电脑的 rclone 配置文件中，并由本机操作系统的文件访问权限管理。根据实际运行方式，日志和缓存可能包含文件名、路径或传输信息。</p>
+        <p>授权配置持续保留至使用者删除或替换。下载的文件、缓存和日志按本机设置及使用者的管理操作保留。云盘文件的保留与删除由使用者的文件操作和 Google 云盘设置决定。</p>
+      </section>
+      <section>
+        <h2>撤销授权与删除本机数据</h2>
+        <p>账号所有者可以在 Google 账号的第三方连接页面撤销本应用的访问授权，并自行删除本机 rclone 配置中的对应连接、相关缓存、日志及下载文件。</p>
+        <p><a href="https://myaccount.google.com/connections">管理 Google 账号连接</a></p>
+      </section>
+      <section>
+        <h2>说明网站</h2>
+        <p>本说明网站由 GitHub Pages 托管。访问页面时，GitHub 会依据其隐私声明处理网站访问相关的技术信息。</p>
+        <p><a href="https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement">查看 GitHub 隐私声明</a></p>
+      </section>
+      <section>
+        <h2>联系与更新</h2>
+        <p>有关本配置或本政策的问题，可通过项目的 GitHub Issues 联系 Chihiro521。政策更新后会在本页面标明更新日期。</p>
+        <p><a href="https://github.com/Chihiro521/rclone-personal-drive/issues">联系维护者</a></p>
+      </section>
+    </main>
+    <footer>
+      <a href="./">返回首页</a>
+      <a href="https://github.com/Chihiro521/rclone-personal-drive">项目源码</a>
+    </footer>
+  </body>
+</html>
